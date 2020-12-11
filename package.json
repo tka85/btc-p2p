@@ -1,6 +1,6 @@
 {
   "name": "btc-p2p",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Manage a network of Bitcoin peers",
   "keywords": [
     "p2p",
@@ -11,16 +11,14 @@
   ],
   "main": "./lib/BTCNetwork.js",
   "scripts": {
-     "test": "mocha"
-   },
-
+    "test": "mocha"
+  },
   "dependencies": {
-    "p2p-manager": "0.1.x",
-    "crypto-binary": "0.1.x",
-    "crypto-hashing": "0.1.x"
+    "crypto-binary": "github:tka85/crypto-binary",
+    "p2p-manager": "github:tka85/p2p-manager"
   },
   "devDependencies": {
-    "mocha": "1.*"
+    "mocha": "6.2.3"
   },
   "repository": {
     "url": "https://github.com/cryptocoinjs/btc-p2p",
